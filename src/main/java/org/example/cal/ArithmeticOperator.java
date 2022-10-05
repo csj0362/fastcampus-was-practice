@@ -1,0 +1,8 @@
+package org.example.cal;
+
+import org.example.calculator.PositiveNumber;
+
+public interface ArithmeticOperator {
+    boolean supports(String operator);
+    int calculate(final PositiveNumber operand1, final PositiveNumber operand2);
+}
